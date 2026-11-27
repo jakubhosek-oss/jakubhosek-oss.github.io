@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pivovar Vlastenec – Poctivé české řemeslné pivo vařené srdcem z moravského sladu a žateckého chmele. Katalog piv, kalkulačka sudů a mapa partnerských hospod." />
+  <meta name="theme-color" content="#120d09" />
 
+  <!-- OpenGraph tagy pro sdílení na sociálních sítích -->
+  <meta property="og:title" content="Pivovar Vlastenec | Poctivé české pivo vařené srdcem" />
+  <meta property="og:description" content="Tradiční spodně kvašené ležáky i řemeslné speciály z moravského sladu a žateckého chmele. Objednejte si sudy na oslavu nebo najděte naši hospodu." />
+  <meta property="og:type" content="website" />
+
+  <title>Pivovar Vlastenec | Poctivé české řemeslné pivo</title>
+
+  <!-- Inline SVG Favicon s erbem pivovaru (bez nutnosti externího souboru) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M10 6H54V32C54 47.5 32 58 32 58C32 58 10 47.5 10 32V6Z' fill='%231d150e' stroke='%23d97706' stroke-width='4'/%3E%3Cpath d='M32 16C25 22 25 32 32 38C39 32 39 22 32 16Z' fill='%23f59e0b'/%3E%3Ccircle cx='32' cy='45' r='3' fill='%23fbbf24'/%3E%3C/svg%3E" />
+
+  <!-- Google Fonts (HTTPS) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS přes HTTPS CDN (ideální pro GitHub Pages bez build kroku) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Cinzel', 'serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            malt: {
+              950: '#120d09',
+              900: '#1d150e',
+              800: '#2d2116',
+              700: '#423121',
+            },
+            amberBeer: {
+              400: '#fbbf24',
+              500: '#
